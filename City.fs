@@ -1,4 +1,4 @@
-module Capital
+module City
     let private isWord (words: string list) =
         let wordTable = Set.ofList words
         fun w -> wordTable |> Set.contains w
